@@ -24,9 +24,9 @@ def predict(
 ):
 
     # Label Encoding
-    # Label Encoding (must match training)
-education = 0 if education == "Graduate" else 1
-self_employed = 1 if self_employed == "Yes" else 0
+    
+    education = 0 if education == "Graduate" else 1
+    self_employed = 1 if self_employed == "Yes" else 0
 
     x = np.array([[
 
